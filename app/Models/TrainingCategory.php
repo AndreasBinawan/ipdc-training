@@ -10,5 +10,8 @@ class TrainingCategory extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['name'];
+    protected $fillable = [
+        'training_id', 
+        'name'
+    ];
 }
